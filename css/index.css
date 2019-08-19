@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -129,6 +128,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin: 10px 0 30px 0;
 }
 
 footer nav {
@@ -144,3 +144,124 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my additions*/
+
+.top{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a img{
+    justify-self: flex-start;
+    margin-left: -40px;
+}
+
+.jumbo{
+    margin: 20px 0;
+}
+
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;
+}
+
+.box4{
+    background-color: coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+
+.box6{
+    background-color: forestgreen;
+}
+
+.box7{
+    background-color: darkorchid;
+}
+
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color: dodgerblue;
+}
+
+/*about*/
+
+
+.topAbout{
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+}
+
+.topAbout p{
+    margin: 0 20px 20px 20px;
+    
+}
+
+.topAbout h2{
+    margin-left: 20px;;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.rowBox{
+   width: 46%;
+   border-bottom: 1px dotted black;
+   padding-bottom: 20px;
+}
+
+.rowBox img{
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 20px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.preFoot{
+    width: 100%;
+    margin: 20px;
+}
+
